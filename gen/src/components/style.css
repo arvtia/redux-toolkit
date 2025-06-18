@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.container-parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    background-color: azure;
+}
+
+.card{
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
